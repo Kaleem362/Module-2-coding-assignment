@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.para{
+    border: 2px solid black;
+    padding: 35px 10px;
+    width: 400px;
+    height: 200px;
+    color: black;
+    position: relative;
+}
+span{
+    border: 2px solid black;
+    float: right;
+    padding: 5px 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    text-align: center;
+}
+#first{
+    background-color: pink;
+}
+#second{
+    background-color: rgb(241, 73, 73);
+}
+#third{
+    background: rgb(183, 240, 70);
+}
+
+
+
